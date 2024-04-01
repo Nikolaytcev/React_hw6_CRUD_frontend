@@ -1,0 +1,84 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+.send-btn {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    background-image: url('./img/baseline_send_black_24dp.png');
+    background-size: contain;
+    position: relative;
+    right: 60px;
+    top: -10px;
+}
+
+.delete-btn {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    background-image: url('./img/delete.svg');
+    background-size: contain;
+    position: relative;
+    right: 25px;
+    top: -25px;
+}
+
+.update-btn {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    background-image: url('./img/baseline_sync_black_24dp.png');
+    background-size: contain;
+    margin-left: 20px;
+    position: relative;
+    top: 5px;
+}
+
+
+.card {
+    display: flex;
+}
+
+.card-text {
+    min-height: 200px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    width: 250px;
+    padding: 30px;
+}
+
+.title {
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    display: block;
+    margin: 0;
+    display: contents;
+    font-size: 3em;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 400px;
+    height: 150px;
+    resize: none;
+    border: 2px solid black;
+    padding: 30px;
+}
+
